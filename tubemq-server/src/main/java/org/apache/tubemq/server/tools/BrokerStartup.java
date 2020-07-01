@@ -17,11 +17,13 @@
 
 package org.apache.tubemq.server.tools;
 
+import org.apache.log4j.PropertyConfigurator;
 import org.apache.tubemq.server.broker.BrokerConfig;
 import org.apache.tubemq.server.broker.TubeBroker;
 
 public class BrokerStartup {
     public static void main(final String[] args) throws Exception {
+        PropertyConfigurator.configure("H:\\repo\\git\\incubator-tubemq\\conf\\tools.log4j.properties");
         final String configFilePath = ToolUtils.getConfigFilePath(args);
         final BrokerConfig tubeConfig = ToolUtils.getBrokerConfig(configFilePath);
         final TubeBroker server = new TubeBroker(tubeConfig);

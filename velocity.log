@@ -1,0 +1,103 @@
+2020-06-27 23:27:06,534 - Log4JLogChute initialized using file 'velocity.log'
+2020-06-27 23:27:06,534 - Initializing Velocity, Calling init()...
+2020-06-27 23:27:06,534 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2020-06-27 23:27:06,534 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2020-06-27 23:27:06,534 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2020-06-27 23:27:06,534 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2020-06-27 23:27:06,534 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2020-06-27 23:27:06,534 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2020-06-27 23:27:06,538 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2020-06-27 23:27:06,539 - Do unicode file recognition:  false
+2020-06-27 23:27:06,539 - FileResourceLoader : adding path 'resources/templates'
+2020-06-27 23:27:06,543 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2020-06-27 23:27:06,544 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2020-06-27 23:27:06,544 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2020-06-27 23:27:06,545 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2020-06-27 23:27:06,545 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2020-06-27 23:27:06,545 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2020-06-27 23:27:06,546 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2020-06-27 23:27:06,547 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2020-06-27 23:27:06,548 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2020-06-27 23:27:06,548 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2020-06-27 23:27:06,568 - Created '20' parsers.
+2020-06-27 23:27:06,573 - Velocimacro : adding VMs from VM library : macro.vm
+2020-06-27 23:27:06,593 - Velocimacro : added VM pagination: source=macro.vm
+2020-06-27 23:27:06,593 - ResourceManager : found macro.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2020-06-27 23:27:06,594 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2020-06-27 23:27:06,594 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2020-06-27 23:27:06,594 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2020-06-27 23:27:06,594 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2020-06-27 23:30:12,928 - Log4JLogChute initialized using file 'velocity.log'
+2020-06-27 23:30:12,928 - Initializing Velocity, Calling init()...
+2020-06-27 23:30:12,928 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2020-06-27 23:30:12,928 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2020-06-27 23:30:12,928 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2020-06-27 23:30:12,928 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2020-06-27 23:30:12,928 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2020-06-27 23:30:12,928 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2020-06-27 23:30:12,930 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2020-06-27 23:30:12,931 - Do unicode file recognition:  false
+2020-06-27 23:30:12,931 - FileResourceLoader : adding path 'resources/templates'
+2020-06-27 23:30:12,936 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2020-06-27 23:30:12,937 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2020-06-27 23:30:12,938 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2020-06-27 23:30:12,938 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2020-06-27 23:30:12,939 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2020-06-27 23:30:12,939 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2020-06-27 23:30:12,940 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2020-06-27 23:30:12,941 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2020-06-27 23:30:12,942 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2020-06-27 23:30:12,942 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2020-06-27 23:30:12,985 - Created '20' parsers.
+2020-06-27 23:30:12,989 - Velocimacro : adding VMs from VM library : macro.vm
+2020-06-27 23:30:13,009 - Velocimacro : added VM pagination: source=macro.vm
+2020-06-27 23:30:13,009 - ResourceManager : found macro.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2020-06-27 23:30:13,009 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2020-06-27 23:30:13,009 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2020-06-27 23:30:13,010 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2020-06-27 23:30:13,010 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2020-06-27 23:30:14,942 - ResourceManager : found screen/index.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2020-06-27 23:30:14,944 - Null reference [template 'screen/index.vm', line 17, column 1] : $sb cannot be resolved.
+2020-06-27 23:30:14,957 - ResourceManager : found layout/default.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2020-06-27 23:30:14,958 - Left side ($page) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. layout/default.vm[line 19, column 17]
+2020-06-27 23:30:14,958 - Left side ($page) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. layout/default.vm[line 21, column 21]
+2020-06-27 23:30:14,967 - ResourceManager : found control/slidebar.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2020-06-27 23:30:14,967 - Left side ($page) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. control/slidebar.vm[line 23, column 38]
+2020-06-27 23:30:14,967 - Left side ($page) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. control/slidebar.vm[line 26, column 24]
+2020-06-27 23:30:14,967 - Left side ($page) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. control/slidebar.vm[line 26, column 47]
+2020-06-27 23:30:14,967 - Left side ($page) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. control/slidebar.vm[line 29, column 32]
+2020-06-27 23:30:14,967 - Left side ($page) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. control/slidebar.vm[line 32, column 32]
+2020-06-27 23:30:21,072 - ResourceManager : found screen/config/brokerList.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2020-06-27 23:30:21,074 - ResourceManager : found layout/default.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2020-06-27 23:30:21,075 - ResourceManager : found control/slidebar.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2020-06-27 23:30:21,388 - ResourceManager : found screen/webapi.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2020-06-27 23:30:21,394 - ResourceManager : found layout/webapi.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2020-06-27 23:30:22,993 - ResourceManager : found screen/config/topicList.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2020-06-27 23:30:22,995 - ResourceManager : found layout/default.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2020-06-27 23:30:22,995 - Left side ($page) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. layout/default.vm[line 19, column 17]
+2020-06-27 23:30:22,995 - Left side ($page) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. layout/default.vm[line 21, column 21]
+2020-06-27 23:30:22,995 - ResourceManager : found control/slidebar.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2020-06-27 23:30:22,996 - Left side ($page) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. control/slidebar.vm[line 23, column 38]
+2020-06-27 23:30:22,996 - Left side ($page) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. control/slidebar.vm[line 26, column 24]
+2020-06-27 23:30:22,996 - Left side ($page) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. control/slidebar.vm[line 26, column 47]
+2020-06-27 23:30:22,996 - Left side ($page) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. control/slidebar.vm[line 29, column 32]
+2020-06-27 23:30:22,996 - Left side ($page) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. control/slidebar.vm[line 32, column 32]
+2020-06-27 23:30:23,104 - ResourceManager : found screen/webapi.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2020-06-27 23:30:23,104 - ResourceManager : found layout/webapi.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2020-06-27 23:30:23,803 - ResourceManager : found screen/config/brokerList.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2020-06-27 23:30:23,804 - ResourceManager : found layout/default.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2020-06-27 23:30:23,805 - ResourceManager : found control/slidebar.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2020-06-27 23:30:23,912 - ResourceManager : found screen/webapi.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2020-06-27 23:30:23,912 - ResourceManager : found layout/webapi.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2020-06-27 23:30:28,186 - ResourceManager : found screen/config/topicList.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2020-06-27 23:30:28,188 - ResourceManager : found layout/default.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2020-06-27 23:30:28,188 - Left side ($page) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. layout/default.vm[line 19, column 17]
+2020-06-27 23:30:28,188 - Left side ($page) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. layout/default.vm[line 21, column 21]
+2020-06-27 23:30:28,189 - ResourceManager : found control/slidebar.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2020-06-27 23:30:28,189 - Left side ($page) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. control/slidebar.vm[line 23, column 38]
+2020-06-27 23:30:28,189 - Left side ($page) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. control/slidebar.vm[line 26, column 24]
+2020-06-27 23:30:28,189 - Left side ($page) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. control/slidebar.vm[line 26, column 47]
+2020-06-27 23:30:28,189 - Left side ($page) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. control/slidebar.vm[line 29, column 32]
+2020-06-27 23:30:28,189 - Left side ($page) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. control/slidebar.vm[line 32, column 32]
+2020-06-27 23:30:28,292 - ResourceManager : found screen/webapi.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2020-06-27 23:30:28,293 - ResourceManager : found layout/webapi.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader

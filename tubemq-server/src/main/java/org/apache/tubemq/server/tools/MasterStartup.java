@@ -17,16 +17,19 @@
 
 package org.apache.tubemq.server.tools;
 
+import org.apache.log4j.PropertyConfigurator;
 import org.apache.tubemq.server.master.MasterConfig;
 import org.apache.tubemq.server.master.TMaster;
 
 public class MasterStartup {
     public static void main(final String[] args) throws Exception {
+        PropertyConfigurator.configure("H:\\repo\\git\\incubator-tubemq\\conf\\tools.log4j.properties");
         final String configFilePath = ToolUtils.getConfigFilePath(args);
         final MasterConfig masterConfig = ToolUtils.getMasterConfig(configFilePath);
         TMaster master = new TMaster(masterConfig);
         master.start();
         master.join();
+        System.out.println("joined");
     }
 
 }

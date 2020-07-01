@@ -1,0 +1,219 @@
+2020-06-27 15:13:28.395 UTC 信息 [tubemqMasterGroupNode1] Started ServiceDispatcher. HostPort=activate.navicat.com:9001
+2020-06-27 15:13:28.398 UTC 信息 [tubemqMasterGroupNode1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2020-06-27 15:13:28.426 UTC 信息 [tubemqMasterGroupNode1] DTVLSN at start:0
+2020-06-27 15:13:28.428 UTC 信息 [tubemqMasterGroupNode1] node:NullNode(-1) state change from DETACHED to UNKNOWN
+2020-06-27 15:13:28.434 UTC 信息 [tubemqMasterGroupNode1] Current group size: 0
+2020-06-27 15:13:28.434 UTC 信息 [tubemqMasterGroupNode1] New node tubemqMasterGroupNode1(-1) unknown to rep group
+2020-06-27 15:13:28.435 UTC 信息 [tubemqMasterGroupNode1] Master changed to tubemqMasterGroupNode1
+2020-06-27 15:13:28.436 UTC 信息 [tubemqMasterGroupNode1] Nascent group. tubemqMasterGroupNode1 is master by virtue of being the first node.
+2020-06-27 15:13:28.436 UTC 信息 [tubemqMasterGroupNode1] node:tubemqMasterGroupNode1(1) state change from UNKNOWN to MASTER
+2020-06-27 15:13:28.498 UTC 信息 [tubemqMasterGroupNode1] Successfully added node:tubemqMasterGroupNode1(1) HostPort = 127.0.0.1: 9001 [ELECTABLE]
+2020-06-27 15:13:28.509 UTC 信息 [tubemqMasterGroupNode1] Node tubemqMasterGroupNode1 started
+2020-06-27 15:13:28.510 UTC 信息 [tubemqMasterGroupNode1] node:NullNode(-1) state change from MASTER to UNKNOWN
+2020-06-27 15:13:28.512 UTC 信息 [tubemqMasterGroupNode1] node:tubemqMasterGroupNode1(1) state change from UNKNOWN to MASTER
+2020-06-27 15:13:28.512 UTC 信息 [tubemqMasterGroupNode1] Feeder manager accepting requests.
+2020-06-27 15:13:28.515 UTC 信息 [tubemqMasterGroupNode1] Joining group as master
+2020-06-27 15:27:04.092 UTC 信息 [tubemqMasterGroupNode1] Started ServiceDispatcher. HostPort=activate.navicat.com:9001
+2020-06-27 15:27:04.095 UTC 信息 [tubemqMasterGroupNode1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2020-06-27 15:27:04.135 UTC 信息 [tubemqMasterGroupNode1] DTVLSN at start:74
+2020-06-27 15:27:04.136 UTC 信息 [tubemqMasterGroupNode1] node:NullNode(-1) state change from DETACHED to UNKNOWN
+2020-06-27 15:27:04.146 UTC 信息 [tubemqMasterGroupNode1] Current group size: 1
+2020-06-27 15:27:04.146 UTC 信息 [tubemqMasterGroupNode1] Existing node tubemqMasterGroupNode1 querying for a current master.
+2020-06-27 15:27:04.159 UTC 信息 [tubemqMasterGroupNode1] Node tubemqMasterGroupNode1 started
+2020-06-27 15:27:04.160 UTC 信息 [tubemqMasterGroupNode1] Election initiated; election #1
+2020-06-27 15:27:04.163 UTC 信息 [tubemqMasterGroupNode1] Started election thread Sat Jun 27 23:27:04 CST 2020
+2020-06-27 15:27:06.189 UTC 信息 [tubemqMasterGroupNode1] Winning proposal: Proposal(00000172f663a9b4:7f2d284ecdd3e4d2e3c12a631ed2c8c7:00000001) Value: Value:127.0.0.1$$$9001$$$tubemqMasterGroupNode1$$$1
+2020-06-27 15:27:06.193 UTC 信息 [tubemqMasterGroupNode1] Master changed to tubemqMasterGroupNode1
+2020-06-27 15:27:06.193 UTC 信息 [tubemqMasterGroupNode1] Election finished. Elapsed time: 2033ms
+2020-06-27 15:27:06.194 UTC 信息 [tubemqMasterGroupNode1] Election thread exited. Group master: tubemqMasterGroupNode1(1)
+2020-06-27 15:27:06.194 UTC 信息 [tubemqMasterGroupNode1] node:tubemqMasterGroupNode1(1) state change from UNKNOWN to MASTER
+2020-06-27 15:27:06.194 UTC 信息 [tubemqMasterGroupNode1] Feeder manager accepting requests.
+2020-06-27 15:27:06.208 UTC 信息 [tubemqMasterGroupNode1] Joining group as master
+2020-06-27 15:30:10.528 UTC 信息 [tubemqMasterGroupNode1] Started ServiceDispatcher. HostPort=activate.navicat.com:9001
+2020-06-27 15:30:10.531 UTC 信息 [tubemqMasterGroupNode1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2020-06-27 15:30:10.567 UTC 信息 [tubemqMasterGroupNode1] DTVLSN at start:77
+2020-06-27 15:30:10.568 UTC 信息 [tubemqMasterGroupNode1] node:NullNode(-1) state change from DETACHED to UNKNOWN
+2020-06-27 15:30:10.578 UTC 信息 [tubemqMasterGroupNode1] Current group size: 1
+2020-06-27 15:30:10.578 UTC 信息 [tubemqMasterGroupNode1] Existing node tubemqMasterGroupNode1 querying for a current master.
+2020-06-27 15:30:10.591 UTC 信息 [tubemqMasterGroupNode1] Node tubemqMasterGroupNode1 started
+2020-06-27 15:30:10.592 UTC 信息 [tubemqMasterGroupNode1] Election initiated; election #1
+2020-06-27 15:30:10.594 UTC 信息 [tubemqMasterGroupNode1] Started election thread Sat Jun 27 23:30:10 CST 2020
+2020-06-27 15:30:12.615 UTC 信息 [tubemqMasterGroupNode1] Winning proposal: Proposal(00000172f66681f4:1d3eb30b110515f5a897c9e61cce101b:00000001) Value: Value:127.0.0.1$$$9001$$$tubemqMasterGroupNode1$$$1
+2020-06-27 15:30:12.619 UTC 信息 [tubemqMasterGroupNode1] Master changed to tubemqMasterGroupNode1
+2020-06-27 15:30:12.620 UTC 信息 [tubemqMasterGroupNode1] Election finished. Elapsed time: 2028ms
+2020-06-27 15:30:12.620 UTC 信息 [tubemqMasterGroupNode1] Election thread exited. Group master: tubemqMasterGroupNode1(1)
+2020-06-27 15:30:12.621 UTC 信息 [tubemqMasterGroupNode1] node:tubemqMasterGroupNode1(1) state change from UNKNOWN to MASTER
+2020-06-27 15:30:12.621 UTC 信息 [tubemqMasterGroupNode1] Feeder manager accepting requests.
+2020-06-27 15:30:12.634 UTC 信息 [tubemqMasterGroupNode1] Joining group as master
+2020-06-27 16:04:47.432 UTC 信息 [tubemqMasterGroupNode1] Started ServiceDispatcher. HostPort=activate.navicat.com:9001
+2020-06-27 16:04:47.435 UTC 信息 [tubemqMasterGroupNode1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2020-06-27 16:04:47.472 UTC 信息 [tubemqMasterGroupNode1] DTVLSN at start:80
+2020-06-27 16:04:47.473 UTC 信息 [tubemqMasterGroupNode1] node:NullNode(-1) state change from DETACHED to UNKNOWN
+2020-06-27 16:04:47.481 UTC 信息 [tubemqMasterGroupNode1] Current group size: 1
+2020-06-27 16:04:47.481 UTC 信息 [tubemqMasterGroupNode1] Existing node tubemqMasterGroupNode1 querying for a current master.
+2020-06-27 16:04:47.493 UTC 信息 [tubemqMasterGroupNode1] Node tubemqMasterGroupNode1 started
+2020-06-27 16:04:47.493 UTC 信息 [tubemqMasterGroupNode1] Election initiated; election #1
+2020-06-27 16:04:47.496 UTC 信息 [tubemqMasterGroupNode1] Started election thread Sun Jun 28 00:04:47 CST 2020
+2020-06-27 16:04:49.502 UTC 信息 [tubemqMasterGroupNode1] Winning proposal: Proposal(00000172f68632d9:8bb3d2b729c964e64c3ec74bbd2ba162:00000001) Value: Value:127.0.0.1$$$9001$$$tubemqMasterGroupNode1$$$1
+2020-06-27 16:04:49.504 UTC 信息 [tubemqMasterGroupNode1] Master changed to tubemqMasterGroupNode1
+2020-06-27 16:04:49.504 UTC 信息 [tubemqMasterGroupNode1] Election finished. Elapsed time: 2011ms
+2020-06-27 16:04:49.504 UTC 信息 [tubemqMasterGroupNode1] Election thread exited. Group master: tubemqMasterGroupNode1(1)
+2020-06-27 16:04:49.505 UTC 信息 [tubemqMasterGroupNode1] node:tubemqMasterGroupNode1(1) state change from UNKNOWN to MASTER
+2020-06-27 16:04:49.505 UTC 信息 [tubemqMasterGroupNode1] Feeder manager accepting requests.
+2020-06-27 16:04:49.510 UTC 信息 [tubemqMasterGroupNode1] Joining group as master
+2020-06-27 16:08:13.564 UTC 信息 [tubemqMasterGroupNode1] Started ServiceDispatcher. HostPort=DESKTOP-E4IKKGB:9001
+2020-06-27 16:08:13.567 UTC 信息 [tubemqMasterGroupNode1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2020-06-27 16:08:13.600 UTC 信息 [tubemqMasterGroupNode1] DTVLSN at start:89
+2020-06-27 16:08:13.602 UTC 信息 [tubemqMasterGroupNode1] node:NullNode(-1) state change from DETACHED to UNKNOWN
+2020-06-27 16:08:13.611 UTC 信息 [tubemqMasterGroupNode1] Current group size: 1
+2020-06-27 16:08:13.611 UTC 信息 [tubemqMasterGroupNode1] Existing node tubemqMasterGroupNode1 querying for a current master.
+2020-06-27 16:08:15.638 UTC 信息 [tubemqMasterGroupNode1] Node tubemqMasterGroupNode1 started
+2020-06-27 16:08:15.639 UTC 信息 [tubemqMasterGroupNode1] Election initiated; election #1
+2020-06-27 16:08:15.643 UTC 信息 [tubemqMasterGroupNode1] Started election thread Sun Jun 28 00:08:15 CST 2020
+2020-06-27 16:18:38.798 UTC 信息 [tubemqMasterGroupNode1] Started ServiceDispatcher. HostPort=DESKTOP-E4IKKGB:9001
+2020-06-27 16:18:38.801 UTC 信息 [tubemqMasterGroupNode1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2020-06-27 16:18:38.837 UTC 信息 [tubemqMasterGroupNode1] DTVLSN at start:89
+2020-06-27 16:18:38.838 UTC 信息 [tubemqMasterGroupNode1] node:NullNode(-1) state change from DETACHED to UNKNOWN
+2020-06-27 16:18:38.847 UTC 信息 [tubemqMasterGroupNode1] Current group size: 1
+2020-06-27 16:18:38.847 UTC 信息 [tubemqMasterGroupNode1] Existing node tubemqMasterGroupNode1 querying for a current master.
+2020-06-27 16:18:40.856 UTC 信息 [tubemqMasterGroupNode1] Node tubemqMasterGroupNode1 started
+2020-06-27 16:18:40.857 UTC 信息 [tubemqMasterGroupNode1] Election initiated; election #1
+2020-06-27 16:18:40.859 UTC 信息 [tubemqMasterGroupNode1] Started election thread Sun Jun 28 00:18:40 CST 2020
+2020-06-28 11:52:21.221 UTC 信息 [tubemqMasterGroupNode1] Started ServiceDispatcher. HostPort=DESKTOP-E4IKKGB:9001
+2020-06-28 11:52:21.238 UTC 信息 [tubemqMasterGroupNode1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2020-06-28 11:52:21.289 UTC 信息 [tubemqMasterGroupNode1] DTVLSN at start:89
+2020-06-28 11:52:21.291 UTC 信息 [tubemqMasterGroupNode1] node:NullNode(-1) state change from DETACHED to UNKNOWN
+2020-06-28 11:52:21.303 UTC 信息 [tubemqMasterGroupNode1] Current group size: 1
+2020-06-28 11:52:21.303 UTC 信息 [tubemqMasterGroupNode1] Existing node tubemqMasterGroupNode1 querying for a current master.
+2020-06-28 11:52:23.313 UTC 信息 [tubemqMasterGroupNode1] Node tubemqMasterGroupNode1 started
+2020-06-28 11:52:23.314 UTC 信息 [tubemqMasterGroupNode1] Election initiated; election #1
+2020-06-28 11:52:23.317 UTC 信息 [tubemqMasterGroupNode1] Started election thread Sun Jun 28 19:52:23 CST 2020
+2020-06-28 11:57:20.682 UTC 信息 [tubemqMasterGroupNode1] Started ServiceDispatcher. HostPort=DESKTOP-E4IKKGB:9001
+2020-06-28 11:57:20.685 UTC 信息 [tubemqMasterGroupNode1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2020-06-28 11:57:20.721 UTC 信息 [tubemqMasterGroupNode1] DTVLSN at start:89
+2020-06-28 11:57:20.722 UTC 信息 [tubemqMasterGroupNode1] node:NullNode(-1) state change from DETACHED to UNKNOWN
+2020-06-28 11:57:20.732 UTC 信息 [tubemqMasterGroupNode1] Current group size: 1
+2020-06-28 11:57:20.732 UTC 信息 [tubemqMasterGroupNode1] Existing node tubemqMasterGroupNode1 querying for a current master.
+2020-06-28 11:57:22.742 UTC 信息 [tubemqMasterGroupNode1] Node tubemqMasterGroupNode1 started
+2020-06-28 11:57:22.742 UTC 信息 [tubemqMasterGroupNode1] Election initiated; election #1
+2020-06-28 11:57:22.745 UTC 信息 [tubemqMasterGroupNode1] Started election thread Sun Jun 28 19:57:22 CST 2020
+2020-06-28 11:59:11.362 UTC 信息 [tubemqMasterGroupNode1] Started ServiceDispatcher. HostPort=DESKTOP-E4IKKGB:9001
+2020-06-28 11:59:11.366 UTC 信息 [tubemqMasterGroupNode1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2020-06-28 11:59:11.404 UTC 信息 [tubemqMasterGroupNode1] DTVLSN at start:89
+2020-06-28 11:59:11.405 UTC 信息 [tubemqMasterGroupNode1] node:NullNode(-1) state change from DETACHED to UNKNOWN
+2020-06-28 11:59:11.414 UTC 信息 [tubemqMasterGroupNode1] Current group size: 1
+2020-06-28 11:59:11.414 UTC 信息 [tubemqMasterGroupNode1] Existing node tubemqMasterGroupNode1 querying for a current master.
+2020-06-28 11:59:13.424 UTC 信息 [tubemqMasterGroupNode1] Node tubemqMasterGroupNode1 started
+2020-06-28 11:59:13.425 UTC 信息 [tubemqMasterGroupNode1] Election initiated; election #1
+2020-06-28 11:59:13.428 UTC 信息 [tubemqMasterGroupNode1] Started election thread Sun Jun 28 19:59:13 CST 2020
+2020-06-28 12:02:33.092 UTC 信息 [tubemqMasterGroupNode1] Started ServiceDispatcher. HostPort=DESKTOP-E4IKKGB:9001
+2020-06-28 12:02:33.094 UTC 信息 [tubemqMasterGroupNode1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2020-06-28 12:02:33.231 UTC 信息 [tubemqMasterGroupNode1] DTVLSN at start:89
+2020-06-28 12:02:33.235 UTC 信息 [tubemqMasterGroupNode1] node:NullNode(-1) state change from DETACHED to UNKNOWN
+2020-06-28 12:02:33.261 UTC 信息 [tubemqMasterGroupNode1] Current group size: 1
+2020-06-28 12:02:33.261 UTC 信息 [tubemqMasterGroupNode1] Existing node tubemqMasterGroupNode1 querying for a current master.
+2020-06-28 12:02:35.283 UTC 信息 [tubemqMasterGroupNode1] Node tubemqMasterGroupNode1 started
+2020-06-28 12:02:35.284 UTC 信息 [tubemqMasterGroupNode1] Election initiated; election #1
+2020-06-28 12:02:35.288 UTC 信息 [tubemqMasterGroupNode1] Started election thread Sun Jun 28 20:02:35 CST 2020
+2020-06-28 12:04:41.864 UTC 信息 [tubemqMasterGroupNode1] Started ServiceDispatcher. HostPort=DESKTOP-E4IKKGB:9001
+2020-06-28 12:04:41.867 UTC 信息 [tubemqMasterGroupNode1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2020-06-28 12:04:41.996 UTC 信息 [tubemqMasterGroupNode1] DTVLSN at start:89
+2020-06-28 12:04:42.000 UTC 信息 [tubemqMasterGroupNode1] node:NullNode(-1) state change from DETACHED to UNKNOWN
+2020-06-28 12:04:42.027 UTC 信息 [tubemqMasterGroupNode1] Current group size: 1
+2020-06-28 12:04:42.027 UTC 信息 [tubemqMasterGroupNode1] Existing node tubemqMasterGroupNode1 querying for a current master.
+2020-06-28 12:04:44.048 UTC 信息 [tubemqMasterGroupNode1] Node tubemqMasterGroupNode1 started
+2020-06-28 12:04:44.049 UTC 信息 [tubemqMasterGroupNode1] Election initiated; election #1
+2020-06-28 12:04:44.052 UTC 信息 [tubemqMasterGroupNode1] Started election thread Sun Jun 28 20:04:44 CST 2020
+2020-06-28 12:05:22.666 UTC 信息 [tubemqMasterGroupNode1] Started ServiceDispatcher. HostPort=DESKTOP-E4IKKGB:9001
+2020-06-28 12:05:22.669 UTC 信息 [tubemqMasterGroupNode1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2020-06-28 12:05:22.804 UTC 信息 [tubemqMasterGroupNode1] DTVLSN at start:89
+2020-06-28 12:05:22.808 UTC 信息 [tubemqMasterGroupNode1] node:NullNode(-1) state change from DETACHED to UNKNOWN
+2020-06-28 12:05:22.835 UTC 信息 [tubemqMasterGroupNode1] Current group size: 1
+2020-06-28 12:05:22.836 UTC 信息 [tubemqMasterGroupNode1] Existing node tubemqMasterGroupNode1 querying for a current master.
+2020-06-28 12:05:24.858 UTC 信息 [tubemqMasterGroupNode1] Node tubemqMasterGroupNode1 started
+2020-06-28 12:05:24.858 UTC 信息 [tubemqMasterGroupNode1] Election initiated; election #1
+2020-06-28 12:05:24.862 UTC 信息 [tubemqMasterGroupNode1] Started election thread Sun Jun 28 20:05:24 CST 2020
+2020-06-28 12:06:55.544 UTC 信息 [tubemqMasterGroupNode1] Started ServiceDispatcher. HostPort=DESKTOP-E4IKKGB:9001
+2020-06-28 12:06:55.547 UTC 信息 [tubemqMasterGroupNode1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2020-06-28 12:06:55.592 UTC 信息 [tubemqMasterGroupNode1] DTVLSN at start:89
+2020-06-28 12:06:55.594 UTC 信息 [tubemqMasterGroupNode1] node:NullNode(-1) state change from DETACHED to UNKNOWN
+2020-06-28 12:06:55.605 UTC 信息 [tubemqMasterGroupNode1] Current group size: 1
+2020-06-28 12:06:55.605 UTC 信息 [tubemqMasterGroupNode1] Existing node tubemqMasterGroupNode1 querying for a current master.
+2020-06-28 12:06:57.617 UTC 信息 [tubemqMasterGroupNode1] Node tubemqMasterGroupNode1 started
+2020-06-28 12:06:57.618 UTC 信息 [tubemqMasterGroupNode1] Election initiated; election #1
+2020-06-28 12:06:57.621 UTC 信息 [tubemqMasterGroupNode1] Started election thread Sun Jun 28 20:06:57 CST 2020
+2020-06-28 12:08:19.564 UTC 信息 [tubemqMasterGroupNode1] Started ServiceDispatcher. HostPort=DESKTOP-E4IKKGB:9001
+2020-06-28 12:08:19.567 UTC 信息 [tubemqMasterGroupNode1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2020-06-28 12:08:19.698 UTC 信息 [tubemqMasterGroupNode1] DTVLSN at start:89
+2020-06-28 12:08:19.701 UTC 信息 [tubemqMasterGroupNode1] node:NullNode(-1) state change from DETACHED to UNKNOWN
+2020-06-28 12:08:19.728 UTC 信息 [tubemqMasterGroupNode1] Current group size: 1
+2020-06-28 12:08:19.729 UTC 信息 [tubemqMasterGroupNode1] Existing node tubemqMasterGroupNode1 querying for a current master.
+2020-06-28 12:08:21.751 UTC 信息 [tubemqMasterGroupNode1] Node tubemqMasterGroupNode1 started
+2020-06-28 12:08:21.751 UTC 信息 [tubemqMasterGroupNode1] Election initiated; election #1
+2020-06-28 12:08:21.755 UTC 信息 [tubemqMasterGroupNode1] Started election thread Sun Jun 28 20:08:21 CST 2020
+2020-06-28 12:16:14.711 UTC 信息 [tubemqMasterGroupNode1] Started ServiceDispatcher. HostPort=DESKTOP-E4IKKGB:9001
+2020-06-28 12:16:14.713 UTC 信息 [tubemqMasterGroupNode1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2020-06-28 12:16:14.852 UTC 信息 [tubemqMasterGroupNode1] DTVLSN at start:89
+2020-06-28 12:16:14.855 UTC 信息 [tubemqMasterGroupNode1] node:NullNode(-1) state change from DETACHED to UNKNOWN
+2020-06-28 12:16:14.883 UTC 信息 [tubemqMasterGroupNode1] Current group size: 1
+2020-06-28 12:16:14.883 UTC 信息 [tubemqMasterGroupNode1] Existing node tubemqMasterGroupNode1 querying for a current master.
+2020-06-28 12:16:16.905 UTC 信息 [tubemqMasterGroupNode1] Node tubemqMasterGroupNode1 started
+2020-06-28 12:16:16.906 UTC 信息 [tubemqMasterGroupNode1] Election initiated; election #1
+2020-06-28 12:16:16.908 UTC 信息 [tubemqMasterGroupNode1] Started election thread Sun Jun 28 20:16:16 CST 2020
+2020-06-28 13:15:08.560 UTC 信息 [tubemqMasterGroupNode1] Started ServiceDispatcher. HostPort=activate.navicat.com:9001
+2020-06-28 13:15:08.562 UTC 信息 [tubemqMasterGroupNode1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2020-06-28 13:15:08.597 UTC 信息 [tubemqMasterGroupNode1] DTVLSN at start:89
+2020-06-28 13:15:08.599 UTC 信息 [tubemqMasterGroupNode1] node:NullNode(-1) state change from DETACHED to UNKNOWN
+2020-06-28 13:15:08.608 UTC 信息 [tubemqMasterGroupNode1] Current group size: 1
+2020-06-28 13:15:08.608 UTC 信息 [tubemqMasterGroupNode1] Existing node tubemqMasterGroupNode1 querying for a current master.
+2020-06-28 13:15:08.625 UTC 信息 [tubemqMasterGroupNode1] Node tubemqMasterGroupNode1 started
+2020-06-28 13:15:08.626 UTC 信息 [tubemqMasterGroupNode1] Election initiated; election #1
+2020-06-28 13:15:08.628 UTC 信息 [tubemqMasterGroupNode1] Started election thread Sun Jun 28 21:15:08 CST 2020
+2020-06-28 13:15:10.634 UTC 信息 [tubemqMasterGroupNode1] Winning proposal: Proposal(00000172fb113da5:8b6bc653c3c7994b21b5e69baa8379af:00000001) Value: Value:127.0.0.1$$$9001$$$tubemqMasterGroupNode1$$$1
+2020-06-28 13:15:10.636 UTC 信息 [tubemqMasterGroupNode1] Master changed to tubemqMasterGroupNode1
+2020-06-28 13:15:10.636 UTC 信息 [tubemqMasterGroupNode1] Election finished. Elapsed time: 2010ms
+2020-06-28 13:15:10.636 UTC 信息 [tubemqMasterGroupNode1] Election thread exited. Group master: tubemqMasterGroupNode1(1)
+2020-06-28 13:15:10.636 UTC 信息 [tubemqMasterGroupNode1] node:tubemqMasterGroupNode1(1) state change from UNKNOWN to MASTER
+2020-06-28 13:15:10.636 UTC 信息 [tubemqMasterGroupNode1] Feeder manager accepting requests.
+2020-06-28 13:15:10.645 UTC 信息 [tubemqMasterGroupNode1] Joining group as master
+2020-06-28 13:16:40.388 UTC 信息 [tubemqMasterGroupNode1] Started ServiceDispatcher. HostPort=DESKTOP-E4IKKGB:9001
+2020-06-28 13:16:40.390 UTC 信息 [tubemqMasterGroupNode1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2020-06-28 13:16:40.426 UTC 信息 [tubemqMasterGroupNode1] DTVLSN at start:92
+2020-06-28 13:16:40.427 UTC 信息 [tubemqMasterGroupNode1] node:NullNode(-1) state change from DETACHED to UNKNOWN
+2020-06-28 13:16:40.438 UTC 信息 [tubemqMasterGroupNode1] Current group size: 1
+2020-06-28 13:16:40.438 UTC 信息 [tubemqMasterGroupNode1] Existing node tubemqMasterGroupNode1 querying for a current master.
+2020-06-28 13:16:42.462 UTC 信息 [tubemqMasterGroupNode1] Node tubemqMasterGroupNode1 started
+2020-06-28 13:16:42.462 UTC 信息 [tubemqMasterGroupNode1] Election initiated; election #1
+2020-06-28 13:16:42.465 UTC 信息 [tubemqMasterGroupNode1] Started election thread Sun Jun 28 21:16:42 CST 2020
+2020-06-28 13:19:10.465 UTC 信息 [tubemqMasterGroupNode1] Started ServiceDispatcher. HostPort=activate.navicat.com:9001
+2020-06-28 13:19:10.468 UTC 信息 [tubemqMasterGroupNode1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2020-06-28 13:19:10.507 UTC 信息 [tubemqMasterGroupNode1] DTVLSN at start:92
+2020-06-28 13:19:10.508 UTC 信息 [tubemqMasterGroupNode1] node:NullNode(-1) state change from DETACHED to UNKNOWN
+2020-06-28 13:19:10.519 UTC 信息 [tubemqMasterGroupNode1] Current group size: 1
+2020-06-28 13:19:10.519 UTC 信息 [tubemqMasterGroupNode1] Existing node tubemqMasterGroupNode1 querying for a current master.
+2020-06-28 13:19:10.532 UTC 信息 [tubemqMasterGroupNode1] Node tubemqMasterGroupNode1 started
+2020-06-28 13:19:10.533 UTC 信息 [tubemqMasterGroupNode1] Election initiated; election #1
+2020-06-28 13:19:10.536 UTC 信息 [tubemqMasterGroupNode1] Started election thread Sun Jun 28 21:19:10 CST 2020
+2020-06-28 13:19:12.543 UTC 信息 [tubemqMasterGroupNode1] Winning proposal: Proposal(00000172fb14ee9a:4735604d0e362326d72df65d2eea5757:00000001) Value: Value:127.0.0.1$$$9001$$$tubemqMasterGroupNode1$$$1
+2020-06-28 13:19:12.544 UTC 信息 [tubemqMasterGroupNode1] Master changed to tubemqMasterGroupNode1
+2020-06-28 13:19:12.545 UTC 信息 [tubemqMasterGroupNode1] Election finished. Elapsed time: 2012ms
+2020-06-28 13:19:12.545 UTC 信息 [tubemqMasterGroupNode1] Election thread exited. Group master: tubemqMasterGroupNode1(1)
+2020-06-28 13:19:12.545 UTC 信息 [tubemqMasterGroupNode1] node:tubemqMasterGroupNode1(1) state change from UNKNOWN to MASTER
+2020-06-28 13:19:12.545 UTC 信息 [tubemqMasterGroupNode1] Feeder manager accepting requests.
+2020-06-28 13:19:12.554 UTC 信息 [tubemqMasterGroupNode1] Joining group as master
+2020-06-29 14:48:36.381 UTC 信息 [tubemqMasterGroupNode1] Started ServiceDispatcher. HostPort=activate.navicat.com:9001
+2020-06-29 14:48:36.395 UTC 信息 [tubemqMasterGroupNode1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2020-06-29 14:48:36.430 UTC 信息 [tubemqMasterGroupNode1] DTVLSN at start:95
+2020-06-29 14:48:36.431 UTC 信息 [tubemqMasterGroupNode1] node:NullNode(-1) state change from DETACHED to UNKNOWN
+2020-06-29 14:48:36.440 UTC 信息 [tubemqMasterGroupNode1] Current group size: 1
+2020-06-29 14:48:36.440 UTC 信息 [tubemqMasterGroupNode1] Existing node tubemqMasterGroupNode1 querying for a current master.
+2020-06-29 14:48:36.457 UTC 信息 [tubemqMasterGroupNode1] Node tubemqMasterGroupNode1 started
+2020-06-29 14:48:36.457 UTC 信息 [tubemqMasterGroupNode1] Election initiated; election #1
+2020-06-29 14:48:36.460 UTC 信息 [tubemqMasterGroupNode1] Started election thread Mon Jun 29 22:48:36 CST 2020
+2020-06-29 14:48:38.468 UTC 信息 [tubemqMasterGroupNode1] Winning proposal: Proposal(00000173008d2b3f:ffa5aa13114f29b44bb8002790001f77:00000001) Value: Value:127.0.0.1$$$9001$$$tubemqMasterGroupNode1$$$1
+2020-06-29 14:48:38.470 UTC 信息 [tubemqMasterGroupNode1] Master changed to tubemqMasterGroupNode1
+2020-06-29 14:48:38.470 UTC 信息 [tubemqMasterGroupNode1] Election finished. Elapsed time: 2013ms
+2020-06-29 14:48:38.470 UTC 信息 [tubemqMasterGroupNode1] Election thread exited. Group master: tubemqMasterGroupNode1(1)
+2020-06-29 14:48:38.470 UTC 信息 [tubemqMasterGroupNode1] node:tubemqMasterGroupNode1(1) state change from UNKNOWN to MASTER
+2020-06-29 14:48:38.471 UTC 信息 [tubemqMasterGroupNode1] Feeder manager accepting requests.
+2020-06-29 14:48:38.478 UTC 信息 [tubemqMasterGroupNode1] Joining group as master
