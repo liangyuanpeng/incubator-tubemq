@@ -16,7 +16,7 @@ func main() {
 
 func Connect() {
 	var sec = 30 * time.Second
-	cnx, err := net.DialTimeout("tcp", "192.168.1.4:8000", sec)
+	cnx, err := net.DialTimeout("tcp", "192.168.3.157:8000", sec)
 	if err != nil {
 		panic(err)
 	}
@@ -38,7 +38,6 @@ func Connect() {
 	if err != nil {
 		panic(err)
 	}
-	// serialized := marshalA(message)
 
 	i, err2 := cnx.Write(serialized)
 	if err2 != nil {
