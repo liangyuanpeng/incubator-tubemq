@@ -58,6 +58,8 @@ public class NettyProtocolDecoder extends FrameDecoder {
                     RpcConstants.RPC_PROTOCOL_BEGIN_TOKEN, channel);
             int serialNo = buffer.readInt();
             int tmpListSize = buffer.readInt();
+            System.out.println("=======serialNo:"+serialNo);
+            System.out.println("=======tmpListSize:"+tmpListSize);
             filterIllegalPackageSize(true, tmpListSize,
                     RpcConstants.MAX_FRAME_MAX_LIST_SIZE, channel);
             this.listSize = tmpListSize;

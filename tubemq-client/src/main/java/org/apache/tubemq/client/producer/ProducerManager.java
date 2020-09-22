@@ -436,6 +436,7 @@ public class ProducerManager {
         if (authInfoBuilder != null) {
             builder.setAuthInfo(authInfoBuilder.build());
         }
+//        logger.info("*******proto.json:{}",builder.toString());
         return builder.build();
     }
 
